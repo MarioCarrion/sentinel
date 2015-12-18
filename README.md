@@ -1,15 +1,17 @@
 # Sentinel
 
-Sentinel is aimed to be a centralized and distributed self-hosted system monitor software for monitoring _expirable_ resources with predictability capabilities and asynchronous alerting mechanisms.
+Sentinel is aimed to be a centralized/distributed self-hosted system monitor software for monitoring _expirable_ resources with predictability capabilities and asynchronous alerting mechanisms.
 
 For example assuming we want to monitor **Disk Space Usage**:
 
 * It will estimate when it would reach the maximum limit, based on previous recorded metrics, and
-* It will alert different channels when criteria applies, for example **> 80% Disk Usage**
+* It will alert different channels when certain criteria applies, for example **> 80% Disk Usage Reached**
 
-Something along the lines of:
+In a practical example, it would be something along the lines of:
 
-> At this rate your Disk Usage will reach 100% in Two Days; alerting on Slack Channel #alert
+> Estimation: At this rate your Disk Usage will reach 100% in Two Days.
+
+> Alert: Slack Channel #alert
 
 ## Architecture
 
@@ -27,7 +29,6 @@ Something along the lines of:
 
 ### Monitorable Resources
 
-* CPU
 * Disk Usage
 * Memory
 
@@ -35,3 +36,12 @@ Something along the lines of:
 
 * Email
 * Slack
+
+# Disclaimer
+
+This is my attempt to make something meaningful while learning three things:
+1. A new programming language: Go,
+2. A new library: 0MQ, and
+3. A new NoSQL database: MongoDB
+
+so **do not** expect anything to be stable or production ready, unless **I say so**.
