@@ -21,7 +21,7 @@ Something along the lines of:
 
 ### Server
 
-**Server* is the centralized element in *Sentinel*. It is in charge of saving all the information received by the *Nodes*. It will be using [MongoDB](https://docs.mongodb.org/ecosystem/drivers/go/) for storing information comming from the *nodes*.
+**Server** is the centralized element in *Sentinel*. It is in charge of saving all the information received by the *Nodes*. It will be using [MongoDB](https://docs.mongodb.org/ecosystem/drivers/go/) for storing information coming from the *nodes*.
 
 ## Initial Scope
 
