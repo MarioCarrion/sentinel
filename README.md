@@ -39,9 +39,10 @@ In a practical example, it would be something along the lines of:
 
 # Disclaimer
 
-This is my attempt to make something meaningful while learning three things:
-1. A new programming language: Go,
-2. A new library: 0MQ, and
-3. A new NoSQL database: MongoDB
+This is my attempt to make something meaningful while learning three *new* things:
+
+1. Programming language: Go,
+2. Messaging Library: ZeroMQ, and
+3. NoSQL database: MongoDB
 
 so **do not** expect anything to be stable or production ready, unless **I say so**.
