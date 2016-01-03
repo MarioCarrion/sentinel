@@ -7,7 +7,7 @@ For example assuming we want to monitor **Disk Space Usage**:
 * It will estimate when it would reach the maximum limit, based on previous recorded metrics, and
 * It will alert different channels when certain criteria applies, for example **> 80% Disk Usage Reached**
 
-In a practical example, it would be something along the lines of:
+A practical example would be something along the lines of:
 
 > Estimation: At this rate your Disk Usage will reach 100% in Two Days.
 
